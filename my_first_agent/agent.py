@@ -7,6 +7,8 @@ from google.adk.agents import LlmAgent
 from pydantic import BaseModel, Field
 
 
+
+
 # Step 1: Define the output structure with Pydantic
 class ProductInfo(BaseModel):
     product_name: str = Field(description="The full name of the product")
