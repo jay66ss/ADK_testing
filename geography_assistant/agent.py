@@ -48,7 +48,7 @@ Always be clear about which folder you're working with.
                     ],
                 ),
             ),
-            timeout=20.0,  # Set a timeout for tool calls
+
             # Filter to only expose safe, read-only tools
             tool_filter=["list_directory", "read_file"],
         )
